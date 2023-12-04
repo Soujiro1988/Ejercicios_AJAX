@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Ejercicio 1 - Estados de la petición AJAX</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="Ajax/Ej1.js"></script>
+  <script type="text/javascript" src="Ajax/Ej2.js"></script>
+  <script type="text/javascript" src="Ajax/Ej3.js"></script>
+  <script type="text/javascript" src="Ajax/Ej4.js"></script>
+  <script type="text/javascript" src="Ajax/Ej5.js"></script>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Order msdt:dt="string">966200.000000000</mso:Order>
+<mso:ContentTypeId msdt:dt="string">0x010100DF3D7C797EA12745A270EF30E38719B9</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+  <form action="#">
+    URL:
+    <input type="text" id="recurso" size="70" />
+    <input type="button" id="enviar" value="Mostrar contenidos" />
+  </form>
+
+  <div id="principal">
+    <h2>Contenidos del archivo:</h2>
+    <div id="contenidos"></div>
+
+    <h2>Cabeceras HTTP de la respuesta del servidor:</h2>
+    <div id="cabeceras"></div>
+  </div>
+
+  <div id="secundario">
+    <h2>Estados de la petición:</h2>
+    <div id="estados"></div>
+
+    <h2>Código de estado:</h2>
+    <div id="codigo"></div>
+  </div>
+</body>
+</html>
